@@ -1,0 +1,89 @@
+{
+  "id": "services",
+  "type": "SharedSlice",
+  "name": "Services",
+  "description": "Services",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Services",
+      "primary": {
+        "servicesTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "servicesDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "service": {
+          "type": "Text",
+          "config": {
+            "label": "Service Title",
+            "placeholder": ""
+          }
+        },
+        "serviceList": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Service List",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "icon": {
+          "type": "Select",
+          "config": {
+            "label": "Icon",
+            "placeholder": "",
+            "options": [
+              "calendar",
+              "restaurant",
+              "clipboard",
+              "home",
+              "direction",
+              "apartment",
+              "briefcase",
+              "delivery",
+              "notepad",
+              "license",
+              "handshake",
+              "investment",
+              "pie-chart",
+              "target",
+              "bricks",
+              "construction-hammer",
+              "construction",
+              "hammer",
+              "helmet",
+              "paint-bucket",
+              "paint-roller",
+              "ruler-alt",
+              "shovel",
+              "trowel",
+              "wheelbarrow",
+              "calculator"
+            ]
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

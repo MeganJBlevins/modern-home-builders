@@ -1,0 +1,122 @@
+{
+  "_cts": {
+    "hambey-hero-headline": {},
+    "homepage": {
+      "hero": {
+        "heroText": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      },
+      "contactInfo": {
+        "address": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      },
+      "logos": {}
+    }
+  },
+  "slices": {
+    "IconsArea": {},
+    "Services": {
+      "default": {
+        "items": {
+          "serviceList": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
+          }
+        },
+        "primary": {
+          "servicesTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "servicesDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Projects": {
+      "default": {
+        "primary": {
+          "projectsTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "projectsDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "projectDescription": {
+            "config": {
+              "patternType": "STORY",
+              "blocks": 1
+            }
+          },
+          "projectSubTitle": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ProjectGallery": {
+      "default": {
+        "primary": {
+          "galleryTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "galleryDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "Team": {
+      "default": {
+        "primary": {
+          "teamDescription": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "teamTitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

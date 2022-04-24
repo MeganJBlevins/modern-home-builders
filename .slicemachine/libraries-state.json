@@ -1,0 +1,893 @@
+{
+  "slices": {
+    "components": {
+      "icons_area": {
+        "library": "slices",
+        "id": "icons_area",
+        "name": "IconsArea",
+        "description": "IconsArea",
+        "model": {
+          "id": "icons_area",
+          "type": "SharedSlice",
+          "name": "IconsArea",
+          "description": "IconsArea",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "IconsArea",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                }
+              },
+              "items": {
+                "icon": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Icon",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "iconLink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Icon Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "icons_area",
+            "items": [
+              {
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+                },
+                "iconLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+                },
+                "iconLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                },
+                "iconLink": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                }
+              },
+              {
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                },
+                "iconLink": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                },
+                "iconLink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Drive ubiquitous synergies",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Occaecat qui quis eiusmod commodo ad excepteur aute veniam tempor cillum exercitation nisi amet velit. Et aliqua veniam quis dolore dolore ut eu nostrud ex aliqua eiusmod deserunt velit amet.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
+      "project_gallery": {
+        "library": "slices",
+        "id": "project_gallery",
+        "name": "ProjectGallery",
+        "description": "ProjectGallery",
+        "model": {
+          "id": "project_gallery",
+          "type": "SharedSlice",
+          "name": "ProjectGallery",
+          "description": "ProjectGallery",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ProjectGallery",
+              "primary": {
+                "galleryTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Not Using",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "galleryDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Not using the title or description",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "projectSlug": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Project Slug",
+                    "placeholder": "slug used in project above."
+                  }
+                }
+              },
+              "items": {
+                "galleryImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Gallery Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "project_gallery",
+            "items": [
+              {
+                "galleryImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "galleryImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "galleryImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1579931794097-0ad001e51edb?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "galleryImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "galleryImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "galleryTitle": [
+                {
+                  "type": "heading1",
+                  "text": "Mesh granular markets",
+                  "spans": []
+                }
+              ],
+              "galleryDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Fugiat deserunt in culpa laborum culpa.",
+                  "spans": []
+                }
+              ],
+              "projectSlug": "incentivize bricks-and-clicks initiatives"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
+      "projects": {
+        "library": "slices",
+        "id": "projects",
+        "name": "Projects",
+        "description": "Projects",
+        "model": {
+          "id": "projects",
+          "type": "SharedSlice",
+          "name": "Projects",
+          "description": "Projects",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Projects",
+              "primary": {
+                "projectsTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "projectsDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "projectSlug": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Project Slug",
+                    "placeholder": ""
+                  }
+                },
+                "projectHero": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Project Hero",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "projectTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Project Title",
+                    "placeholder": ""
+                  }
+                },
+                "projectSubTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Project Sub Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong"
+                  }
+                },
+                "projectDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Project Description",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "projects",
+            "items": [
+              {
+                "projectSlug": "integrate efficient models",
+                "projectHero": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"
+                },
+                "projectTitle": "matrix 24/7 technologies",
+                "projectSubTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla consequat in ullamco. Occaecat amet cupidatat esse deserunt. Lorem consequat in aute Lorem.",
+                    "spans": []
+                  }
+                ],
+                "projectDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Anim veniam tempor eu aliquip et exercitation nisi veniam eiusmod.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "projectSlug": "empower cross-media initiatives",
+                "projectHero": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+                },
+                "projectTitle": "architect holistic e-tailers",
+                "projectSubTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia ad officia amet.",
+                    "spans": []
+                  }
+                ],
+                "projectDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ipsum et magna ex elit voluptate nulla dolore fugiat anim mollit aliqua.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "projectSlug": "engage world-class bandwidth",
+                "projectHero": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+                },
+                "projectTitle": "seize cutting-edge action-items",
+                "projectSubTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consectetur fugiat ut est est.",
+                    "spans": []
+                  }
+                ],
+                "projectDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat consequat consequat ad velit eu laborum excepteur. Quis incididunt ad laborum et amet excepteur exercitation. Deserunt mollit amet consectetur occaecat eu incididunt dolor qui nisi reprehenderit do est aute.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "projectSlug": "scale B2C action-items",
+                "projectHero": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
+                },
+                "projectTitle": "scale viral e-business",
+                "projectSubTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat sunt enim mollit officia laborum sit consequat commodo. Non ad esse dolore dolor quis adipisicing cupidatat tempor dolor.",
+                    "spans": []
+                  }
+                ],
+                "projectDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Dolore eu dolore voluptate veniam cupidatat ad sit ut laborum proident occaecat ea mollit cillum sit. Excepteur cupidatat sunt excepteur minim commodo. Esse elit exercitation quis non ipsum dolor duis laborum aliquip officia.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "projectSlug": "seize granular interfaces",
+                "projectHero": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                },
+                "projectTitle": "incubate plug-and-play blockchains",
+                "projectSubTitle": [
+                  {
+                    "type": "paragraph",
+                    "text": "Deserunt laborum voluptate exercitation culpa ipsum.",
+                    "spans": []
+                  }
+                ],
+                "projectDescription": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat nulla sunt ut non commodo cillum cillum aliquip excepteur eiusmod ad. Qui adipisicing amet dolor id tempor enim cillum deserunt. Magna duis sint anim sint mollit culpa incididunt voluptate.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "projectsTitle": [
+                {
+                  "type": "heading1",
+                  "text": "E-enable extensible partnerships",
+                  "spans": []
+                }
+              ],
+              "projectsDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Commodo esse sit exercitation aliquip qui exercitation id adipisicing fugiat irure consectetur. Ea eu ut mollit adipisicing labore cillum. Elit duis irure aliqua.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
+      "services": {
+        "library": "slices",
+        "id": "services",
+        "name": "Services",
+        "description": "Services",
+        "model": {
+          "id": "services",
+          "type": "SharedSlice",
+          "name": "Services",
+          "description": "Services",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Services",
+              "primary": {
+                "servicesTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "servicesDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "service": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Service Title",
+                    "placeholder": ""
+                  }
+                },
+                "serviceList": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Service List",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "icon": {
+                  "type": "Select",
+                  "config": {
+                    "label": "Icon",
+                    "placeholder": "",
+                    "options": [
+                      "calendar",
+                      "restaurant",
+                      "clipboard",
+                      "home",
+                      "direction",
+                      "apartment",
+                      "briefcase",
+                      "delivery",
+                      "notepad",
+                      "license",
+                      "handshake",
+                      "investment",
+                      "pie-chart",
+                      "target",
+                      "bricks",
+                      "construction-hammer",
+                      "construction",
+                      "hammer",
+                      "helmet",
+                      "paint-bucket",
+                      "paint-roller",
+                      "ruler-alt",
+                      "shovel",
+                      "trowel",
+                      "wheelbarrow",
+                      "calculator"
+                    ]
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "services",
+            "items": [
+              {
+                "service": "redefine extensible e-commerce",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Mollit qui nostrud sint officia laborum sint elit.",
+                    "spans": []
+                  }
+                ],
+                "icon": "ruler-alt"
+              },
+              {
+                "service": "implement web-enabled e-markets",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Non consequat cillum veniam eu ut elit amet velit ut. Officia laborum consectetur officia reprehenderit elit Lorem tempor. Ex dolor esse est non.",
+                    "spans": []
+                  }
+                ],
+                "icon": "paint-bucket"
+              },
+              {
+                "service": "exploit sexy content",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ullamco dolore enim do exercitation tempor proident labore sunt aute eiusmod ullamco ea ullamco ut deserunt. Tempor eiusmod esse ut ut Lorem ut tempor ipsum sunt id aliqua magna. Et adipisicing reprehenderit laborum adipisicing nisi.",
+                    "spans": []
+                  }
+                ],
+                "icon": "calculator"
+              },
+              {
+                "service": "visualize next-generation vortals",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Do ea deserunt magna duis non proident sint tempor irure ipsum aute.",
+                    "spans": []
+                  }
+                ],
+                "icon": "helmet"
+              },
+              {
+                "service": "aggregate rich e-services",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Fugiat est adipisicing excepteur.",
+                    "spans": []
+                  }
+                ],
+                "icon": "pie-chart"
+              },
+              {
+                "service": "reintermediate 24/365 synergies",
+                "serviceList": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sit elit sit incididunt incididunt veniam velit voluptate nulla minim.",
+                    "spans": []
+                  }
+                ],
+                "icon": "target"
+              }
+            ],
+            "primary": {
+              "servicesTitle": [
+                {
+                  "type": "heading1",
+                  "text": "Facilitate virtual e-services",
+                  "spans": []
+                }
+              ],
+              "servicesDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Sunt commodo deserunt commodo in nisi ad voluptate nostrud tempor. Exercitation consectetur fugiat officia ad aute dolor voluptate dolor adipisicing.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
+      "team": {
+        "library": "slices",
+        "id": "team",
+        "name": "Team",
+        "description": "Team",
+        "model": {
+          "id": "team",
+          "type": "SharedSlice",
+          "name": "Team",
+          "description": "Team",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Team",
+              "primary": {
+                "teamTitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "teamDescription": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong"
+                  }
+                },
+                "titleBackground": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Title Background",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "teamImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Team Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "teamName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Team Name",
+                    "placeholder": ""
+                  }
+                },
+                "teamTitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Team Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "team",
+            "items": [
+              {
+                "teamImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+                },
+                "teamName": "incentivize visionary eyeballs",
+                "teamTitle": "morph efficient initiatives"
+              },
+              {
+                "teamImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                },
+                "teamName": "orchestrate transparent e-tailers",
+                "teamTitle": "enable web-enabled web-readiness"
+              }
+            ],
+            "primary": {
+              "teamTitle": [
+                {
+                  "type": "heading1",
+                  "text": "Syndicate 24/7 applications",
+                  "spans": []
+                }
+              ],
+              "teamDescription": [
+                {
+                  "type": "paragraph",
+                  "text": "Eu in elit mollit duis consectetur ut commodo. Do ipsum ex et amet incididunt sunt magna laborum quis labore consectetur consectetur culpa exercitation occaecat. Amet sit proident proident officia do excepteur enim exercitation nulla non velit excepteur anim consectetur.",
+                  "spans": []
+                }
+              ],
+              "titleBackground": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "homepage",
+  "label": "Hambey Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "hero": {
+        "type": "Group",
+        "config": {
+          "label": "Hero",
+          "fields": {
+            "heroText": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Hero Text",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "heroImage": {
+              "type": "Image",
+              "config": {
+                "label": "Hero Image",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "contactInfo": {
+        "type": "Group",
+        "config": {
+          "label": "Contact Info",
+          "fields": {
+            "contactIntro": {
+              "type": "Text",
+              "config": {
+                "label": "Contact Intro",
+                "placeholder": ""
+              }
+            },
+            "contactIntroDescription": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Contact Intro Description",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "email": {
+              "type": "Text",
+              "config": {
+                "label": "Email",
+                "placeholder": ""
+              }
+            },
+            "phone": {
+              "type": "Text",
+              "config": {
+                "label": "Phone",
+                "placeholder": ""
+              }
+            },
+            "address": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Address",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+              }
+            },
+            "facebookLink": {
+              "type": "Link",
+              "config": {
+                "label": "Facebook Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "logos": {
+        "type": "Group",
+        "config": {
+          "label": "Logos",
+          "fields": {
+            "blackLogo": {
+              "type": "Image",
+              "config": {
+                "label": "Black Logo",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "whiteLogo": {
+              "type": "Image",
+              "config": {
+                "label": "White Logo",
+                "constraint": {},
+                "thumbnails": []
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "Services": {
+      "services": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "services": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Projects": {
+      "projects": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "projects": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Team": {
+      "team": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "team": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Galleries": {
+      "galleries": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "project_gallery": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Icons Section": {
+      "icons": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "icons_area": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

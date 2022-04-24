@@ -1,0 +1,9 @@
+{
+  "id": "hambey-hero-headline",
+  "label": "Site Hero Headline",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

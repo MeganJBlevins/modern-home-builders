@@ -1,0 +1,68 @@
+{
+  "id": "team",
+  "type": "SharedSlice",
+  "name": "Team",
+  "description": "Team",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Team",
+      "primary": {
+        "teamTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "teamDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong"
+          }
+        },
+        "titleBackground": {
+          "type": "Image",
+          "config": {
+            "label": "Title Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "teamImage": {
+          "type": "Image",
+          "config": {
+            "label": "Team Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "teamName": {
+          "type": "Text",
+          "config": {
+            "label": "Team Name",
+            "placeholder": ""
+          }
+        },
+        "teamTitle": {
+          "type": "Text",
+          "config": {
+            "label": "Team Title",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

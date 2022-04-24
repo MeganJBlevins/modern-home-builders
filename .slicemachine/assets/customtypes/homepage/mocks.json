@@ -1,0 +1,295 @@
+{
+  "id": "325f4f28-e6f0-4333-9f02-1d3be1f07f26",
+  "uid": "id-doloribus-nemo",
+  "type": "homepage",
+  "data": {
+    "hero": [
+      {
+        "heroText": [
+          {
+            "type": "paragraph",
+            "text": "Laboris est minim reprehenderit est mollit duis aute incididunt ex anim reprehenderit amet sint duis.",
+            "spans": []
+          }
+        ],
+        "heroImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "heroText": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua voluptate ut enim labore Lorem laborum anim ex anim eu tempor ut nulla cupidatat.",
+            "spans": []
+          }
+        ],
+        "heroImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "heroText": [
+          {
+            "type": "paragraph",
+            "text": "Nisi nulla excepteur exercitation anim aliquip incididunt cupidatat dolor.",
+            "spans": []
+          }
+        ],
+        "heroImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "heroText": [
+          {
+            "type": "paragraph",
+            "text": "Ullamco laboris sunt cupidatat proident anim sit officia enim cupidatat occaecat. Proident pariatur eiusmod velit mollit voluptate ullamco ad ad do adipisicing eiusmod aute.",
+            "spans": []
+          }
+        ],
+        "heroImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "heroText": [
+          {
+            "type": "paragraph",
+            "text": "Esse consectetur nulla cillum.",
+            "spans": []
+          }
+        ],
+        "heroImage": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+        }
+      }
+    ],
+    "contactInfo": [
+      {
+        "contactIntro": "leverage killer communities",
+        "contactIntroDescription": [
+          {
+            "type": "paragraph",
+            "text": "Veniam nisi consectetur nostrud laboris eiusmod. Do incididunt amet do sunt.",
+            "spans": []
+          }
+        ],
+        "email": "architect holistic architectures",
+        "phone": "matrix seamless portals",
+        "address": [
+          {
+            "type": "paragraph",
+            "text": "Officia eiusmod laborum ullamco mollit exercitation nisi quis eiusmod sit. Enim aliquip id officia ea ipsum veniam dolore officia aliquip ut. Lorem minim ut duis adipisicing nisi non aliqua reprehenderit ad incididunt irure quis anim irure.",
+            "spans": []
+          }
+        ],
+        "facebookLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "contactIntro": "optimize e-business paradigms",
+        "contactIntroDescription": [
+          {
+            "type": "paragraph",
+            "text": "Irure dolore esse labore nulla esse anim deserunt ea proident in officia nostrud nisi voluptate eu. Eiusmod adipisicing duis sint deserunt proident do esse excepteur nisi veniam. Deserunt dolor consectetur sint tempor deserunt commodo proident enim sit velit et ex.",
+            "spans": []
+          }
+        ],
+        "email": "revolutionize bricks-and-clicks mindshare",
+        "phone": "grow transparent technologies",
+        "address": [
+          {
+            "type": "paragraph",
+            "text": "Veniam amet velit do nulla enim Lorem fugiat magna commodo.",
+            "spans": []
+          }
+        ],
+        "facebookLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "contactIntro": "recontextualize real-time action-items",
+        "contactIntroDescription": [
+          {
+            "type": "paragraph",
+            "text": "Do eiusmod sit aliqua anim anim mollit ullamco nisi dolore id dolor. Quis voluptate nulla aliqua reprehenderit nulla voluptate. Ullamco ipsum adipisicing ex ex pariatur sunt veniam anim veniam.",
+            "spans": []
+          }
+        ],
+        "email": "generate one-to-one relationships",
+        "phone": "evolve back-end e-commerce",
+        "address": [
+          {
+            "type": "paragraph",
+            "text": "Irure proident fugiat ullamco ad voluptate velit laboris veniam nulla tempor veniam excepteur et magna reprehenderit. Consequat dolore consectetur culpa quis tempor anim et anim sit minim exercitation nisi adipisicing.",
+            "spans": []
+          }
+        ],
+        "facebookLink": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "contactIntro": "reinvent granular systems",
+        "contactIntroDescription": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat id ipsum anim nulla excepteur do culpa laborum irure sint sunt dolore laboris. Pariatur magna sit officia eu cupidatat eu deserunt ea reprehenderit labore excepteur fugiat in nisi. Reprehenderit sunt minim culpa quis cupidatat labore esse do amet.",
+            "spans": []
+          }
+        ],
+        "email": "benchmark cross-media eyeballs",
+        "phone": "repurpose cutting-edge markets",
+        "address": [
+          {
+            "type": "paragraph",
+            "text": "Sunt sunt ex officia sint amet. Anim eiusmod qui minim reprehenderit quis aute do commodo occaecat.",
+            "spans": []
+          }
+        ],
+        "facebookLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      }
+    ],
+    "logos": [
+      {
+        "blackLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587614295999-6c1c13675117?w=900&h=500&fit=crop"
+        },
+        "whiteLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "blackLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+        },
+        "whiteLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "blackLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+        },
+        "whiteLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "blackLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+        },
+        "whiteLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+        }
+      },
+      {
+        "blackLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+        },
+        "whiteLogo": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+        }
+      }
+    ]
+  }
+}
