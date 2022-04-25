@@ -28,6 +28,13 @@
             "allowTargetBlank": true,
             "multi": "paragraph"
           }
+        },
+        "embedVideoUrl": {
+          "type": "Text",
+          "config": {
+            "label": "Embed Video Url",
+            "placeholder": ""
+          }
         }
       },
       "items": {

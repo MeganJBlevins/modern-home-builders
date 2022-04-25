@@ -10,7 +10,7 @@
                 </div>
             </div> <!-- row -->
             <div class="row justify-content-center">
-                <div v-for="(service, index) in services.items" :key="index" class="col-lg-3 col-md-7 col-sm-9">
+                <div v-for="(service, index) in services.items" :key="index" class="col-lg-6 col-md-6 col-sm-12">
                     <div class="single-features mt-40">
                         <div class="features-title-icon justify-content-between">
                             <div class="features-icon">
@@ -23,6 +23,11 @@
                               <PrismicRichText :field="service.serviceList" />
                         </div>
                     </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
+            <div v-if="services.primary.embedVideoUrl" class="row">
+                <div class="mt-5 col-lg-8 offset-lg-2 col-sm-10 offset-sm-1 iframe-wrapper">
+                    <iframe :src="services.primary.embedVideoUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -38,5 +43,18 @@ export default {
 <style scoped>
 .section-title {
     margin-bottom: 30px;
+}
+.iframe-wrapper {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 56.25%;
+}
+.iframe-wrapper iframe {
+   position:absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
 }
 </style>

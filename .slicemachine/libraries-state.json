@@ -593,6 +593,13 @@
                     "allowTargetBlank": true,
                     "multi": "paragraph"
                   }
+                },
+                "embedVideoUrl": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Embed Video Url",
+                    "placeholder": ""
+                  }
                 }
               },
               "items": {
@@ -659,87 +666,44 @@
             "slice_type": "services",
             "items": [
               {
-                "service": "redefine extensible e-commerce",
+                "service": "mesh front-end solutions",
                 "serviceList": [
                   {
                     "type": "paragraph",
-                    "text": "Mollit qui nostrud sint officia laborum sint elit.",
+                    "text": "Et commodo est ut deserunt esse irure Lorem ad ex commodo ex do. Nostrud exercitation quis ex irure proident aliqua commodo est consectetur veniam. Exercitation deserunt magna eiusmod esse.",
                     "spans": []
                   }
                 ],
-                "icon": "ruler-alt"
+                "icon": "construction"
               },
               {
-                "service": "implement web-enabled e-markets",
+                "service": "engineer seamless communities",
                 "serviceList": [
                   {
                     "type": "paragraph",
-                    "text": "Non consequat cillum veniam eu ut elit amet velit ut. Officia laborum consectetur officia reprehenderit elit Lorem tempor. Ex dolor esse est non.",
-                    "spans": []
-                  }
-                ],
-                "icon": "paint-bucket"
-              },
-              {
-                "service": "exploit sexy content",
-                "serviceList": [
-                  {
-                    "type": "paragraph",
-                    "text": "Ullamco dolore enim do exercitation tempor proident labore sunt aute eiusmod ullamco ea ullamco ut deserunt. Tempor eiusmod esse ut ut Lorem ut tempor ipsum sunt id aliqua magna. Et adipisicing reprehenderit laborum adipisicing nisi.",
-                    "spans": []
-                  }
-                ],
-                "icon": "calculator"
-              },
-              {
-                "service": "visualize next-generation vortals",
-                "serviceList": [
-                  {
-                    "type": "paragraph",
-                    "text": "Do ea deserunt magna duis non proident sint tempor irure ipsum aute.",
-                    "spans": []
-                  }
-                ],
-                "icon": "helmet"
-              },
-              {
-                "service": "aggregate rich e-services",
-                "serviceList": [
-                  {
-                    "type": "paragraph",
-                    "text": "Fugiat est adipisicing excepteur.",
+                    "text": "In mollit duis eiusmod irure eiusmod occaecat anim ex ullamco est.",
                     "spans": []
                   }
                 ],
                 "icon": "pie-chart"
-              },
-              {
-                "service": "reintermediate 24/365 synergies",
-                "serviceList": [
-                  {
-                    "type": "paragraph",
-                    "text": "Sit elit sit incididunt incididunt veniam velit voluptate nulla minim.",
-                    "spans": []
-                  }
-                ],
-                "icon": "target"
               }
             ],
             "primary": {
               "servicesTitle": [
                 {
                   "type": "heading1",
-                  "text": "Facilitate virtual e-services",
+                  "text": "Repurpose bleeding-edge solutions",
                   "spans": []
                 }
               ],
               "servicesDescription": [
                 {
                   "type": "paragraph",
-                  "text": "Sunt commodo deserunt commodo in nisi ad voluptate nostrud tempor. Exercitation consectetur fugiat officia ad aute dolor voluptate dolor adipisicing.",
+                  "text": "Ad aute qui enim. Quis do reprehenderit ipsum incididunt id id labore magna exercitation aliqua enim dolor amet.",
                   "spans": []
                 }
-              ]
+              ],
+              "embedVideoUrl": "productize strategic markets"
             }
           }
         },

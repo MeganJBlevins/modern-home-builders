@@ -83,7 +83,7 @@
   background-color: transparent;
   height: auto;
   width: 80vw;
-  max-width: 800px;
+  max-width: 700px;
   margin-top: 5vh;
   overflow: hidden;
   position: relative;

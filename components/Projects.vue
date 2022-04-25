@@ -4,8 +4,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title">{{ projects ? projects.primary.projectsTitle[0].text : 'Our Projects' }}</h3>
-                          <PrismicRichText :field="projects.primary.projectsDescription" />
+                        <h3 class="title">{{ projects.primary.projectsTitle[0] ? projects.primary.projectsTitle[0].text : 'Our Projects' }}</h3>
+                          <template v-if="projects.primary.projectsDescription">
+                              <PrismicRichText :field="projects.primary.projectsDescription" />
+                          </template>
                     </div> <!-- row -->
                 </div>
             </div> <!-- row -->
