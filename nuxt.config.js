@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'hambey-construction',
+    title: 'Modern Home Builders | Hambey Construction',
     htmlAttrs: {
       lang: 'en'
     },
