@@ -110,7 +110,7 @@ ul, ol {
 p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   color: #121212;
   margin: 0px; }
 
@@ -2199,7 +2199,7 @@ p {
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #000;
+      background-color: #fff;
       margin: 5px 0;
       display: block;
       position: relative;
@@ -2230,7 +2230,7 @@ p {
         top: 115%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: rgba(0,0,0,.85);
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2242,7 +2242,7 @@ p {
         top: 115%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: rgba(0,0,0,.85);
         z-index: 8;
         padding: 10px 0;
         -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
@@ -2254,7 +2254,7 @@ p {
       .navbar-area .navbar .navbar-nav .nav-item a {
         font-size: 16px;
         line-height: 24px;
-        font-weight: 700;
+        font-weight: 500;
         padding: 26px 0;
         color: #fff;
         text-transform: uppercase;
@@ -2269,12 +2269,12 @@ p {
           .navbar-area .navbar .navbar-nav .nav-item a {
             padding: 10px 0;
             display: block;
-            color: #121212; } }
+            color: #fff; } }
         @media (max-width: 767px) {
           .navbar-area .navbar .navbar-nav .nav-item a {
             padding: 10px 0;
             display: block;
-            color: #121212; } }
+            color: #fff; } }
         .navbar-area .navbar .navbar-nav .nav-item a::before {
           position: absolute;
           content: '';
@@ -2307,10 +2307,10 @@ p {
         color: #fff; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
-            color: #121212; } }
+            color: #fff; } }
         @media (max-width: 767px) {
           .navbar-area .navbar .navbar-nav .nav-item.active > a, .navbar-area .navbar .navbar-nav .nav-item:hover > a {
-            color: #121212; } }
+            color: #fff; } }
         .navbar-area .navbar .navbar-nav .nav-item.active > a::before, .navbar-area .navbar .navbar-nav .nav-item:hover > a::before {
           -webkit-transform: translate(-50%) scaleX(1);
           -moz-transform: translate(-50%) scaleX(1);
@@ -2355,24 +2355,24 @@ p {
             background-color: transparent;
             color: #fff; }
   .navbar-area.sticky {
-    background-color: #fff;
+    background-color: rgba(0,0,0,.85);
     z-index: 999;
     position: fixed;
     -webkit-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
     -moz-box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05);
     box-shadow: 0px 10px 25px 0px rgba(18, 18, 18, 0.05); }
     .navbar-area.sticky .navbar .navbar-toggler .toggler-icon {
-      background-color: #121212; }
+      background-color: #fff; }
     .navbar-area.sticky .navbar .navbar-nav .nav-item a {
-      color: #121212;
-      opacity: 0.7; }
+      color: #fff;
+       }
       .navbar-area.sticky .navbar .navbar-nav .nav-item a::before {
-        background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
-        background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #121212 100%);
-        background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #121212 100%); }
+        background: -webkit-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #fff 100%);
+        background: -o-linear-gradient(left, rgba(18, 18, 18, 0) 0%, #fff 100%);
+        background: linear-gradient(to right, rgba(18, 18, 18, 0) 0%, #fff 100%); }
     .navbar-area.sticky .navbar .navbar-nav .nav-item.active, .navbar-area.sticky .navbar .navbar-nav .nav-item:hover {
-      color: #121212;
-      opacity: 1; }
+      color: #eee;
+       }
     .navbar-area.sticky .navbar .navbar-btn li a.light {
       border-color: #a49d78;
       color: #a49d78; }
@@ -2564,6 +2564,7 @@ p {
 
   .features-title-icon h4{
     margin-right: 5px;
+    margin-bottom: 20px;
   }
 .single-features {
   padding: 40px 20px 52px;

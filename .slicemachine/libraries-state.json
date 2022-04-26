@@ -737,7 +737,7 @@
                     "label": "Title",
                     "placeholder": "This is where it all begins...",
                     "allowTargetBlank": true,
-                    "single": "heading1"
+                    "multi": "heading1,heading2,heading3"
                   }
                 },
                 "teamDescription": {
@@ -800,10 +800,10 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
                 },
-                "teamName": "incentivize visionary eyeballs",
-                "teamTitle": "morph efficient initiatives"
+                "teamName": "engage user-centric vortals",
+                "teamTitle": "benchmark interactive e-commerce"
               },
               {
                 "teamImage": {
@@ -813,24 +813,63 @@
                   },
                   "alt": "Placeholder image",
                   "copyright": null,
-                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                  "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
                 },
-                "teamName": "orchestrate transparent e-tailers",
-                "teamTitle": "enable web-enabled web-readiness"
+                "teamName": "e-enable sexy users",
+                "teamTitle": "incubate cross-platform e-tailers"
+              },
+              {
+                "teamImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?w=900&h=500&fit=crop"
+                },
+                "teamName": "iterate impactful methodologies",
+                "teamTitle": "engage transparent web-readiness"
+              },
+              {
+                "teamImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+                },
+                "teamName": "enable granular models",
+                "teamTitle": "embrace compelling functionalities"
+              },
+              {
+                "teamImage": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+                },
+                "teamName": "redefine out-of-the-box infrastructures",
+                "teamTitle": "strategize innovative architectures"
               }
             ],
             "primary": {
               "teamTitle": [
                 {
                   "type": "heading1",
-                  "text": "Syndicate 24/7 applications",
+                  "text": "Syndicate efficient mindshare",
                   "spans": []
                 }
               ],
               "teamDescription": [
                 {
                   "type": "paragraph",
-                  "text": "Eu in elit mollit duis consectetur ut commodo. Do ipsum ex et amet incididunt sunt magna laborum quis labore consectetur consectetur culpa exercitation occaecat. Amet sit proident proident officia do excepteur enim exercitation nulla non velit excepteur anim consectetur.",
+                  "text": "Occaecat dolore occaecat culpa ullamco dolor cupidatat consequat. Commodo fugiat laboris qui non.",
                   "spans": []
                 }
               ],
@@ -841,7 +880,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=900&h=500&fit=crop"
               }
             }
           }

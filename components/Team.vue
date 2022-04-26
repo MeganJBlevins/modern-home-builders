@@ -1,9 +1,9 @@
 <template>
     <section id="team" class="team-area pb-130">
-        <div class="mb-4 team-heading" :style="{'backgroundImage': `url(${team.primary.titleBackground.url})`}">
-            <div class="section-title text-center">
-                 <h3 class="title">{{ team ? team.primary.teamTitle[0].text : 'Section Title' }}</h3>
-                <PrismicRichText class="text" style="color:white" :field="team.primary.teamDescription" />
+        <div class="mb-4" >
+            <div class="section-title text-center mb-100">
+                <PrismicRichText :field="team.primary.teamTitle" />
+                <PrismicRichText class="text"  :field="team.primary.teamDescription" />
             </div> <!-- section title -->
         </div>
         <div class="container">  
@@ -52,18 +52,6 @@ export default {
 <style scoped>
 .no-pics {
     margin-top: 130px;
-}
-.team-heading {
-    background-size: cover;
-    background-position: center;
-    min-height: 550px;
-    padding-top: 350px;
-    padding-bottom: 50px;
-}
-
-.section-title {
-    background-color: rgba(0,0,0,.6);
-    padding: 30px;
 }
 
 @media screen and (max-width: 500px) {

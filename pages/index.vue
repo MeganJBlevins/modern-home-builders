@@ -2,18 +2,23 @@
   <div>
     <Navbar :logos="document.data.logos[0]"/>
     <Hero :options="document.data.hero[0]" />
-    <!-- <IconSection :icons="this.document.data.icons[0]" /> -->
+    <IconSection :icons="this.document.data.icons[0]" />
     <Services :services="this.document.data.services[0]" />
     <Projects :projects="this.document.data.projects[0]" :galleries="this.document.data.galleries" />
-   <!--  <Team :team="this.document.data.team[0]" /> -->
-    <!-- <Contact :contactInfo="document.data.contactInfo[0]" /> -->
-    <!-- <Footer :contactInfo="document.data.contactInfo[0]" :footerLogo="document.data.logos[0].whiteLogo"/> -->
+    <Team :team="this.document.data.team[0]" />
+    <Contact :contactInfo="document.data.contactInfo[0]" />
+    <Footer :contactInfo="document.data.contactInfo[0]" :footerLogo="document.data.logos[0].whiteLogo"/>
   </div>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
+  head() {
+    return {
+      title: "Modern Home Builders | Hambey Construction"
+    };
+  },
   data() {
     return {
       document: {},
