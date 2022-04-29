@@ -2568,7 +2568,7 @@ p {
   }
 .single-features {
   padding: 40px 20px 52px;
-  background-color: #fff; }
+  background-color: transparent; }
   .single-features .features-title-icon {
     position: relative;
   }
