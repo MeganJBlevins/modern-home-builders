@@ -2604,7 +2604,7 @@ p {
       color: #a49d78;
       position: absolute;
       top: -66px;
-      right: -36px;
+      left: -36px;
       z-index: 5; 
     }
     .single-features .features-title-icon .features-icon .shape {
