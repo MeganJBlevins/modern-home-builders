@@ -67,5 +67,16 @@ export default {
 .logo .square {
   padding: 20px;
 }
+@media screen and (max-width: 500px) {
+  .logo {
+    flex: 0 0 calc(50% - 30px)
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    flex: 0 0 calc(33% - 30px)
+  }
+}
 
 </style>
