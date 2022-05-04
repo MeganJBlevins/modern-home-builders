@@ -612,8 +612,9 @@ p {
   background-color: #a49d78;
   border-color: #a49d78; }
   .light-rounded-buttons.light-rounded-two:hover {
-    color: #a49d78;
-    background-color: transparent; }
+    background-color: transparent; 
+    border-color: #fff
+  }
 .light-rounded-buttons .light-rounded-three {
   overflow: hidden;
   line-height: 50px;
